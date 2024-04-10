@@ -37,7 +37,7 @@ public class RedBus extends Device {
 
     }
 
-    private Peripheral[] peripherals = new Peripheral[0x100];
+    public Peripheral[] peripherals = new Peripheral[0x100];
 
     public RedBus() {
         super(-1, -1); // there is no fixed address for the redbus
@@ -65,6 +65,7 @@ public class RedBus extends Device {
         }
         return 0;
     }
+
     public int getSize(RedBusState state) {
         return (state.offset+0xff) - state.offset + 1;
     }
