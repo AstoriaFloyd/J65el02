@@ -74,7 +74,7 @@ public class Cpu implements InstructionTable {
     protected CpuState state = new CpuState();
 
     /* The RedBus state */
-    protected RedBusState redBusState = new RedBusState();
+    public RedBusState redBusState = new RedBusState();
 
     protected IntConsumer logCallback;
 
