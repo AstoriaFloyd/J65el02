@@ -82,4 +82,7 @@ public class Bus {
     }
 
 
+    public void setRedBus(RedBus bus) {
+        this.redBus = bus;
+    }
 }
