@@ -156,8 +156,8 @@ public class CpuState {
                 "D:" + Utils.wordToHex(this.d) + " " +
                 "F:" + Utils.byteToHex(getStatusFlag()) + " " +
                 "S:" + Utils.wordToHex(this.sp) + " " +
-                "R:" + Utils.wordToHex(this.r);// + " " +
-//                getProcessorStatusString() + "\n";
+                "R:" + Utils.wordToHex(this.r) + " " +
+                "PC: " + Utils.wordToHex(this.pc);
     }
 
     /**

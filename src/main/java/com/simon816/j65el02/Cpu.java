@@ -152,7 +152,7 @@ public class Cpu implements InstructionTable {
         this.state.x = 0;
         this.state.y = 0;
 
-        this.state.por = 0x2000;
+        this.state.por = 0x400;
         // Default BRK address
         this.state.brk = 0x2000;
 
